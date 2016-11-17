@@ -1,0 +1,4 @@
+---
+java_oracle_rpm: jdk-{{java_ver}}u{{java_patch_ver}}-{{java_platform}}.rpm
+java_oracle_url: '{{java_mirror}}/{{java_ver}}u{{java_patch_ver}}-{{java_post_patch_ver}}/{{java_oracle_rpm}}'
+java_home: /usr/java/jdk1.{{java_ver}}.{{java_minor_ver}}_{{java_patch_ver}}

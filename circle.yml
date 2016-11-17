@@ -1,0 +1,10 @@
+---
+machine:
+  services:
+    - docker
+
+dependencies:
+  override:
+    - docker info
+    - ./circleci-builder.sh ansible-java:
+        parallel: true

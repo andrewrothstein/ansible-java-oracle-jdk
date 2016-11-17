@@ -1,0 +1,19 @@
+---
+- name : (Debian) add webupd8team/java ppa
+  apt_repository: repo='ppa:webupd8team/java'
+
+- name : (Debian) accept license...
+  shell: 'echo debconf shared/accepted-oracle-license-v1-1 {{item}} true | debconf-set-selections'
+  with_items :
+    - select
+    - seen
+
+- name : (Debian) install java
+  package: name={{item}} state=present
+  with_items:
+    - oracle-java{{java_ver}}-installer
+
+- name : (Debian) set default
+  when: '{{java_set_default_ver}}'
+  package: name=oracle-java{{java_ver}}-set-default
+

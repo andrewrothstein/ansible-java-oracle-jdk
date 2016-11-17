@@ -1,0 +1,8 @@
+---
+- name: install with ppa
+  when: ansible_distribution == 'Ubuntu'
+  include: ppa.yml
+
+- name: install without ppa
+  when: ansible_distribution != 'Ubuntu'
+  include: el-oracle.yml
