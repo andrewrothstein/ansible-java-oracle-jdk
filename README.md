@@ -23,7 +23,7 @@ Example Playbook
 
     - hosts: servers
       roles:
-         - andrewrothstein.oracle-jdk
+         - andrewrothstein.java-oracle-jdk
 
 License
 -------
