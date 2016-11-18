@@ -6,5 +6,10 @@ machine:
 dependencies:
   override:
     - docker info
-    - ./circleci-builder.sh ansible-java:
+    - ./circleci-builder.sh
+        parallel: true
+
+tests:
+  override:
+    - ./circleci-tester.sh
         parallel: true
