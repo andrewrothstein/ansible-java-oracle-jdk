@@ -1,7 +1,7 @@
 #!/bin/bash
 set -xe
 
-. ./cirecleci-env.sh
+. ./circleci-env.sh
 
 i=0
 files=()
