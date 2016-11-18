@@ -5,7 +5,7 @@ set -xe
 
 i=0
 files=()
-for os in $CI_PLATFORMS; do
+for os in ${CI_PLATFORMS[@]}; do
     if [ $(($i % $CIRCLE_NODE_TOTAL)) -eq $CIRCLE_NODE_INDEX ]
     then
 	docker pull $DOCKER_UPSTREAM:$os
