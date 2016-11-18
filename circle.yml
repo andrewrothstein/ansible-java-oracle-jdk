@@ -6,10 +6,10 @@ machine:
 dependencies:
   override:
     - docker info
-    - ./circleci-builder.sh
+    - ./circleci-builder.sh:
         parallel: true
 
 tests:
   override:
-    - ./circleci-tester.sh
+    - ./circleci-tester.sh:
         parallel: true
