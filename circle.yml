@@ -9,7 +9,7 @@ dependencies:
     - ./circleci-builder.sh:
         parallel: true
 
-tests:
+test:
   override:
     - ./circleci-tester.sh:
         parallel: true
