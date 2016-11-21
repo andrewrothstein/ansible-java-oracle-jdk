@@ -5,7 +5,9 @@ machine:
 
 dependencies:
   pre:
+    - echo upgrading pip...
     - sudo -H pip install --upgrade pip
+    - echo installing circleci-helpers
     - sudo -H pip install circleci-helpers
 
 test:
