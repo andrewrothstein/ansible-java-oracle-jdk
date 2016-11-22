@@ -28,7 +28,7 @@ test:
             script:
               - docker pull $UPSTREAM:$OS
               - echo "FROM $UPSTREAM:$OS" > Dockerfile.$OS
-              - docker build -t $CIRCLE_PROJECT_REPONAME:$OS .
+              - docker build -t $CIRCLE_PROJECT_REPONAME:$OS -f Dockerfile.$OS .
 
             after_script:
               - docker images
