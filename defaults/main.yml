@@ -1,7 +1,7 @@
 ---
 java_ver : 8
 java_minor_ver : 0
-java_patch_ver: 102
+java_patch_ver: 112
 java_post_patch_ver: b14
 java_platform: linux-x64
 java_set_default_ver: True
