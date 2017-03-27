@@ -1,4 +1,6 @@
 ---
 java_oracle_rpm: jdk-{{java_ver}}u{{java_patch_ver}}-{{java_platform}}.rpm
-java_oracle_url: '{{java_mirror}}/{{java_ver}}u{{java_patch_ver}}-{{java_post_patch_ver}}/{{java_oracle_rpm}}'
+
+# http://download.oracle.com/otn-pub/java/jdk/8u121-b13/e9e7ea248e2c4826b92b3f075a80e441/jdk-8u121-linux-x64.rpm
+java_oracle_url: '{{java_mirror}}/{{java_ver}}u{{java_patch_ver}}-{{java_post_patch_ver}}/{{java_uuid}}/{{java_oracle_rpm}}'
 java_home: /usr/java/jdk1.{{java_ver}}.{{java_minor_ver}}_{{java_patch_ver}}
