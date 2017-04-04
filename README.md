@@ -1,4 +1,5 @@
-andrewrothstein.oracle-jdk
+[![CircleCI](https://circleci.com/gh/andrewrothstein/ansible-java-oracle-jdk.svg?style=svg)](https://circleci.com/gh/andrewrothstein/ansible-java-oracle-jdk)
+andrewrothstein.java-oracle-jdk
 =========
 
 Oracle JDK
@@ -21,9 +22,11 @@ See [meta/main.yml](meta/main.yml)
 Example Playbook
 ----------------
 
-    - hosts: servers
-      roles:
-         - andrewrothstein.java-oracle-jdk
+```yml
+- hosts: servers
+  roles:
+    - andrewrothstein.java-oracle-jdk
+```
 
 License
 -------
@@ -33,4 +36,4 @@ MIT
 Author Information
 ------------------
 
-Andrew Rothstein andrew.rothstein@gmail.com
+Andrew Rothstein <andrew.rothstein@gmail.com>
