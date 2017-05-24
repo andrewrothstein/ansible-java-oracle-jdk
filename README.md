@@ -1,6 +1,6 @@
-[![CircleCI](https://circleci.com/gh/andrewrothstein/ansible-java-oracle-jdk.svg?style=svg)](https://circleci.com/gh/andrewrothstein/ansible-java-oracle-jdk)
 andrewrothstein.java-oracle-jdk
 =========
+[![Build Status](https://travis-ci.org/andrewrothstein/ansible-java-oracle-jdk.svg?branch=master)](https://travis-ci.org/andrewrothstein/ansible-java-oracle-jdk)
 
 Oracle JDK
 
