@@ -1,10 +1,2 @@
 ---
-java_ver : 8
-java_minor_ver : 0
-java_patch_ver: 131
-java_post_patch_ver: b11
-
-java_uuid: d54c1d3a095b4ff2b6607d096fa80163
-java_platform: linux-x64
-java_set_default_ver: True
-java_mirror: http://download.oracle.com/otn-pub/java/jdk
+java_oracle_jdk_home: /usr/local/java
