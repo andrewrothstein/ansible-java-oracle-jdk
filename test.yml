@@ -2,3 +2,6 @@
 - hosts: all
   roles:
     - role: '{{playbook_dir}}'
+  tasks:
+    - name: test javac
+      command: /usr/local/java/bin/javac -version
