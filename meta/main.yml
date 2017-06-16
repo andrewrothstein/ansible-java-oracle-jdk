@@ -30,6 +30,6 @@ galaxy_info:
 
 dependencies:
   - src: andrewrothstein.java-oracle
-    version: v1.0.3
+    version: v1.0.4
     java_oracle_prefix: jdk
   
